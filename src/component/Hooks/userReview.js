@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
 
-const userReview = () => {
-  const [user, setUser] = useState([]);
+const UserReview = () => {
+  const [users, setUser] = useState([]);
   useEffect(() => {
     fetch("reviewData.json")
       .then((res) => res.json())
       .then((data) => setUser(data));
   }, []);
-  return [user, setUser];
+  return [users, setUser];
 };
-export default userReview;
+export default UserReview;
