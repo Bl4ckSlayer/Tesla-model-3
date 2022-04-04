@@ -1,4 +1,5 @@
 import React from "react";
+import Review from "../Review/Review";
 
 const Home = () => {
   return (
@@ -18,7 +19,8 @@ const Home = () => {
         <img src={require(".././ImageAndExtra/model-3-main.jpg")} alt=""></img>
       </div>
       <div>
-          
+        <h1>Review</h1>
+        <Review></Review>
       </div>
     </div>
   );
