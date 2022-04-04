@@ -8,7 +8,7 @@ import Reviews from "./component/Reviews/Reviews";
 
 function App() {
   return (
-    <div className="">
+    <div className=" m-6">
       <Header></Header>
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>

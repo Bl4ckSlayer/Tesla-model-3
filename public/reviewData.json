@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Imriaz Eman",
+    "id": "1",
+    "description": "The Model 3 Performance is everything in one. It is fast (very fast), it is quiet and comfortable",
+    "img": "https://img.freepik.com/free-vector/man-profile-cartoon_18591-58482.jpg",
+    "rating": "5 star"
+  },
+  {
+    "name": "Saifulla",
+    "id": "2",
+    "description": "Nice car. It's beautiful, super millage, good top glass, good looking and powerful quality. Overall good TESLA",
+    "img": "https://image.shutterstock.com/image-vector/young-man-avatar-character-260nw-661669825.jpg",
+    "rating": "4 star"
+  },
+  {
+    "name": "Tasnim Sultan",
+    "id": "3",
+    "description": "This is a perfect sedan with all-electric driving, and this car being electric has a pretty. Good range (507km).",
+    "img": "https://i.pinimg.com/474x/72/13/3b/72133b748dfe62faa5e08ee653a0f466.jpg",
+    "rating": "4.5 star"
+  },
+  {
+    "name": "Amirul Islam",
+    "id": "4",
+    "description": "Best car of Tesla but too expensive. The range is good, top speed is less, and the best looking car of Tesla.",
+    "img": "https://img.freepik.com/free-vector/man-profile-cartoon_18591-58482.jpg",
+    "rating": "5 star"
+  },
+  {
+    "name": "Sajid Ullah",
+    "id": "5",
+    "description": "One of the best companies in the automobile industry. They make future cars for every type of person.",
+    "img": "https://img.freepik.com/free-vector/young-woman-avatar-cartoon-character-profile-picture_18591-55057.jpg",
+    "rating": "3 star"
+  },
+  {
+    "name": "Shantu PY",
+    "id": "6",
+    "description": "The price starts from 60 lakhs onwards. Ordinary people can't buy this car.",
+    "img": "https://image.shutterstock.com/image-vector/young-man-avatar-character-260nw-661669825.jpg",
+    "rating": "5 star"
+  },
+  {
+    "name": "Ansary Islam",
+    "id": "7",
+    "description": "The best car in the world and I want to buy it. When it will come to Bangladesh.",
+    "img": "https://i.pinimg.com/736x/8d/38/d2/8d38d22bb81072b9687f7ee1db6294c5.jpg",
+    "rating": "4 star"
+  },
+  {
+    "name": "Tasnim tamanna",
+    "id": "8",
+    "description": "Beautiful and awesome choice absolutely lives of perfectly featuring. Tesla electric vehicles are my favorite choice",
+    "img": "https://i.pinimg.com/474x/72/13/3b/72133b748dfe62faa5e08ee653a0f466.jpg",
+    "rating": "5 star"
+  },
+  {
+    "name": "Reaz ceo ",
+    "id": "9",
+    "description": "Amazing car and the autopilot works very nicely. Hopefully, Elon Musk launches Tesla into the Indian market.",
+    "img": "https://lyricstranslate.com/files/styles/avatar/public/pictures/picture-1484932-1633180335.png",
+    "rating": "4 star"
+  },
+  {
+    "name": "Shanto NY",
+    "id": "10",
+    "description": "It is a very awesome car. It is very comfortable and more speed and also safe and it is a bulletproof also so. I love this car.",
+    "img": "https://i.pinimg.com/736x/8d/38/d2/8d38d22bb81072b9687f7ee1db6294c5.jpg",
+    "rating": "5 star"
+  }
+]
