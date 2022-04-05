@@ -20,9 +20,21 @@ const Home = () => {
             high speeds, all allowing Model 3 to accelerate from 0-60 mph* in as
             little as 3.1 seconds.
           </p>
+          <button
+            onClick={() =>
+              window.open("https://www.tesla.com/model3", "_blank")
+            }
+            className=" bg-amber-200 font-bold  rounded-3xl  p-5 hover:cursor-pointer hover:bg-slate-300 hover:text-red-600 hover:shadow-2xl hover:shadow-blue-500/50 "
+          >
+            Know More
+          </button>
         </div>
 
-        <img src={require(".././ImageAndExtra/model-3-main.jpg")} alt=""></img>
+        <img
+          src={require(".././ImageAndExtra/model-3-main.jpg")}
+          alt=""
+          className="rounded-3xl"
+        ></img>
       </div>
       <div className="mt-14 text-center ">
         <h1 className="text-5xl font-extrabold  m-6">Review</h1>
@@ -34,7 +46,7 @@ const Home = () => {
 
         <button
           onClick={() => navigate("/review")}
-          className=" bg-amber-200 font-bold rounded-3xl mt-8 p-5 hover:bg-slate-300 hover:text-red-600 hover:shadow-2xl hover:shadow-blue-500/50 "
+          className=" bg-amber-200 font-bold  rounded-3xl mt-8 p-5 hover:cursor-pointer hover:bg-slate-300 hover:text-red-600 hover:shadow-2xl hover:shadow-blue-500/50 "
         >
           Show More Review
         </button>
