@@ -13,34 +13,19 @@ const Header = () => {
           ></img>
         </div>
         <div className=" md:flex lg:flex  gap-5 font-bold text-xl   ">
-          <CustomLink
-            to="/"
-            className="hover:text-rose-400 hover:cursor-pointer"
-          >
+          <CustomLink to="/" className="hover:cursor-pointer">
             Home
           </CustomLink>
-          <CustomLink
-            to="/review"
-            className="hover:text-rose-400 hover:cursor-pointer"
-          >
+          <CustomLink to="/review" className=" hover:cursor-pointer">
             Review
           </CustomLink>
-          <CustomLink
-            to="/dashboard"
-            className="hover:text-rose-400 hover:cursor-pointer"
-          >
+          <CustomLink to="/dashboard" className=" hover:cursor-pointer">
             Dashboard
           </CustomLink>
-          <CustomLink
-            to="/blogs"
-            className="hover:text-rose-400 hover:cursor-pointer"
-          >
+          <CustomLink to="/blogs" className=" hover:cursor-pointer">
             Blogs
           </CustomLink>
-          <CustomLink
-            to="/about"
-            className="hover:text-rose-400 hover:cursor-pointer"
-          >
+          <CustomLink to="/about" className=" hover:cursor-pointer">
             About
           </CustomLink>
         </div>

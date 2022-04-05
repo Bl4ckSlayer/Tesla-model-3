@@ -3,7 +3,11 @@ import React from "react";
 const About = () => {
   return (
     <div className="text-center mt-8 p-6">
-      <h1 className="text-4xl font-bold">Tesla</h1>
+      <h1 className="text-4xl font-bold mb-2">
+        <span className=" bg-red-600 border-1 rounded-3xl px-4 text-rose-50">
+          TESLA
+        </span>
+      </h1>
       <p>
         <span className="font-bold text-xl">
           Tesla’s mission is to accelerate the world’s transition to sustainable

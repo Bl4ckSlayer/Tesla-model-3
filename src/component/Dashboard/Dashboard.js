@@ -33,6 +33,9 @@ const Dashboard = () => {
       </h1>
       <div className=" grid grid-cols-1 md:grid-cols-2  lg:grid-cols-2 gap-12">
         <div className="">
+          <h1 className="text-center text-2xl font-semibold text-cyan-700 mb-4">
+            Month Wise Sell and Investment
+          </h1>
           <ResponsiveContainer width="99%" height={300}>
             <LineChart width={900} height={300} data={data}>
               <CartesianGrid strokeDasharray="3 3" />
@@ -50,7 +53,10 @@ const Dashboard = () => {
             </LineChart>
           </ResponsiveContainer>
         </div>
-        <div className="">
+        <div>
+          <h1 className="text-center text-2xl font-semibold text-cyan-700 mb-4">
+            Investment VS Sell
+          </h1>
           <ResponsiveContainer width="99%" height={300}>
             <BarChart width={900} height={300} data={data}>
               <CartesianGrid strokeDasharray="3 3" />
@@ -64,7 +70,10 @@ const Dashboard = () => {
             </BarChart>
           </ResponsiveContainer>
         </div>
-        <div className="">
+        <div>
+          <h1 className="text-center text-2xl font-semibold text-cyan-700 mb-4">
+            Investment Sell Revenue
+          </h1>
           <ResponsiveContainer width="99%" height={300}>
             <ComposedChart width={500} height={400} data={data}>
               <CartesianGrid stroke="#f5f5f5" />
@@ -78,7 +87,10 @@ const Dashboard = () => {
             </ComposedChart>
           </ResponsiveContainer>
         </div>
-        <div className="">
+        <div>
+          <h1 className="text-center text-2xl font-semibold text-cyan-700 mb-4">
+            Investment Sell Revenue
+          </h1>
           <ResponsiveContainer width="99%" height={300}>
             <RadarChart cx="50%" cy="50%" outerRadius="80%" data={data}>
               <Tooltip />

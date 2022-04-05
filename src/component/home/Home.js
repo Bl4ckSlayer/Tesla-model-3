@@ -10,6 +10,11 @@ const Home = () => {
     <div>
       <div className="md:flex lg:flex justify-between gap-4 text-center items-center ">
         <div className=" mb-4 mt-4 ">
+          <h1 className="text-4xl font-bold mb-2">
+            <span className=" bg-red-600 border-1 rounded-3xl px-4 text-rose-50">
+              TESLA
+            </span>
+          </h1>
           <h1 className="text-5xl text-red-600  font-extrabold font-serif">
             Model 3
           </h1>
@@ -37,7 +42,12 @@ const Home = () => {
         ></img>
       </div>
       <div className="mt-14 text-center ">
-        <h1 className="text-5xl font-extrabold  m-6">Review</h1>
+        <h1 className="text-5xl font-extrabold  m-6 ">
+          <span className="bg-cyan-600 border-1 rounded-3xl px-5 py-2  text-rose-50">
+            Reviews
+          </span>
+        </h1>
+
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-16">
           {users.slice(0, 3).map((user) => (
             <Review key={user.id} user={user}></Review>
