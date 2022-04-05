@@ -1,6 +1,22 @@
-# Getting Started with Create React App
+# Tesla Model 3
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### live Website:
+
+# [Tesla Model 3 ](https://amirul-tesla-assignment-9.netlify.app/)
+
+#### Live Code:
+# [CodeLink](https://github.com/programming-hero-web-course-4/product-analysis-website-Bl4ckSlayer)
+
+# `Project DescripTion`
+
+* Its about tesla model 3.
+* The feature and some description of this model are on the projects.
+* 
+# `Product Description`
+
+* In this modern world Electric Car are very popular and tesla model 3 is one of them.
+* Tesla model 3 renowned for it's features and cheap consume of electricity.
+
 
 ## Available Scripts
 
